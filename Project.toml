@@ -1,0 +1,4 @@
+name = "NumericalMethods"
+uuid = "92e6be7e-217c-449d-b03e-fb27e01d7545"
+authors = ["Daniel Marvin <dmarvin@capterra.com>"]
+version = "0.1.0"
