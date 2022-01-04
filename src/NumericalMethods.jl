@@ -1,9 +1,11 @@
 module NumericalMethods
 
-import("types.jl")
-import("riemannsums.jl")
-import("bisection.jl")
-import("secant.jl")
-import("differences.jl")
+include("types.jl")
+include("riemannsums.jl")
+include("bisection.jl")
+include("secant.jl")
+include("differences.jl")
+
+export bisection, secant
 
 end # module

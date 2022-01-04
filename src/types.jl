@@ -1,8 +1,10 @@
 abstract type NumericalImplementation end
 
-struct BisectionMethod <: NumericalImplementation end
-struct NewtonsMethod <: NumericalImplementation end
-struct SecantMethod <: NumericalImplementation end
+abstract type RootFinder <: NumericalImplementation end
+
+struct BisectionMethod <: RootFinder end
+struct NewtonsMethod <: RootFinder end
+struct SecantMethod <: RootFinder end
 
 abstract type FiniteDifferenceMethod <: NumericalImplementation end
 
